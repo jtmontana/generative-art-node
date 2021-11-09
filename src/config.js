@@ -1,12 +1,13 @@
 const layersOrder = [
     { name: 'background', number: 1 },
-    { name: 'ball', number: 2 },
-    { name: 'eye color', number: 12 },
-    { name: 'iris', number: 3 },
-    { name: 'shine', number: 1 },
-    { name: 'shine', number: 1 },
-    { name: 'bottom lid', number: 3 },
-    { name: 'top lid', number: 3 },
+    { name: 'border', number: 2 },
+    { name: 'logo_face', number: 3 },
+    { name: 'logo_eyes', number: 4 },
+    { name: 'logo_nose', number: 4 },
+    { name: 'logo_mouth', number: 4 },
+    { name: 'logo_hair', number: 5 },
+    { name: 'logo_accessory', number: 6 },
+    { name: 'logo_accessory', number: 6 },
 ];
   
 const format = {
@@ -18,6 +19,7 @@ const rarity = [
     { key: "", val: "original" },
     { key: "_r", val: "rare" },
     { key: "_sr", val: "super rare" },
+    { key: "_omg", val: "GODLIKE" },
 ];
 
 const defaultEdition = 5;
