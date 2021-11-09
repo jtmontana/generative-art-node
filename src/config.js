@@ -15,6 +15,7 @@ const format = {
     height: 230
 };
 
+// Suffix rarity keys to end of filenames like this someimage_sr.png to give that file the rarity attribute. 
 const rarity = [
     { key: "", val: "original" },
     { key: "_r", val: "rare" },
